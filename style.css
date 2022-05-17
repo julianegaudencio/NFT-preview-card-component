@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+}   
+
+.container {
+    width: 290px;
+    height: 500px;
+    box-shadow: inset 0 0 1em hsl(217, 54%, 11%), 0 0 1em hsl(217, 54%, 11%);
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    margin: 6% auto;
+   
+}
+
+.card img {
+    width: 250px;
+    border-radius: 5px; 
+}
+
+.card {
+    margin: 20px;
+}
+
+.card h1 {
+    margin-top: 10px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.card p {
+
+    margin-top: 10px;
+    color: hsl(215, 51%, 70%);
+    font-size: 15px;
+}
+
+.below-card {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+
+.bc-left {
+    width: 80px;
+    display: flex;
+    
+}
+
+.bc-left p {
+    margin-left: 8px;
+    font-size: 13px;
+    color:  hsl(178, 100%, 50%);
+}
+
+.bc-right {
+    width: 90px;
+    display: flex;
+}
+
+.bc-right p {
+    margin-left: 8px;
+    font-size: 13px;
+    color: hsl(215, 51%, 70%);
+}
+
+.line {
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    border: 0.3px solid hsla(215, 52%, 70%, 0.301);
+}
+
+
+.identification {
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    display: flex;
+}
+
+.identification img {
+    margin-top: 15px;
+    width: 25px;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+
+.identification p {
+    font-size: 13px;
+    margin-left: 14px;
+    margin-top: 20px;
+    color: hsl(215, 51%, 70%);
+}
+
+.identification a {
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
